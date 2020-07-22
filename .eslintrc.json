@@ -1,0 +1,31 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "env": {
+      "browser": true,
+        "es6": true
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": {
+      "linebreak-style": ["error", "unix"],
+      "eol-last": 0,
+      "indent": ["error", 4],
+      "quotes": ["error", "double"],
+      "semi": [2, "always"],
+      "no-console": 2,
+      "no-debugger": 2,
+      "max-classes-per-file": ["error", 1]
+  }
+}

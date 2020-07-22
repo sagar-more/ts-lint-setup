@@ -1,0 +1,36 @@
+{
+  "name": "ts-lint-setup",
+  "version": "1.0.0",
+  "description": "linting setup for js and ts files using eslint",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx --max-warnings 5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagar-more/ts-lint-setup.git"
+  },
+  "keywords": [
+    "eslint",
+    "tslint",
+    "linting"
+  ],
+  "author": "sagar-more",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagar-more/ts-lint-setup/issues"
+  },
+  "homepage": "https://github.com/sagar-more/ts-lint-setup#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "@typescript-eslint/eslint-plugin": "^3.7.0",
+    "@typescript-eslint/parser": "^3.7.0",
+    "eslint": "^7.5.0",
+    "eslint-plugin-react": "^7.20.3",
+    "typescript": "^3.9.7"
+  }
+}
