@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import FileComponent from "./FileComponent";
+import HeaderComponent from "./HeaderComponent";
 
-ReactDOM.render(<FileComponent />, document.getElementById("root"));
+ReactDOM.render(<HeaderComponent />, document.getElementById("root"));

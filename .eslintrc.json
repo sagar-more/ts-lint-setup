@@ -9,23 +9,29 @@
         "es6": true
     },
     "parserOptions": {
+      "project": "./tsconfig.json",
       "ecmaFeatures": {
         "jsx": true
       }
     },
     "extends": [
-      "eslint:recommended",
+      "airbnb-typescript",
       "plugin:react/recommended",
       "plugin:@typescript-eslint/recommended"
     ],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
     "rules": {
       "linebreak-style": ["error", "unix"],
       "eol-last": 0,
       "indent": ["error", 4],
-      "quotes": ["error", "double"],
       "semi": [2, "always"],
       "no-console": 2,
       "no-debugger": 2,
-      "max-classes-per-file": ["error", 1]
+      "max-classes-per-file": ["error", 1],
+      "@typescript-eslint/quotes": ["error", "double"]
   }
 }
